@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="base_classes" projectFiles="true">
+      <itemPath>AReceiver.hpp</itemPath>
+      <itemPath>ASender.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Processor.hpp</itemPath>
+      <itemPath>SocketReceiver.hpp</itemPath>
+      <itemPath>message_t.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="senders" projectFiles="true">
+      <itemPath>DconSender.hpp</itemPath>
+      <itemPath>PanelSender.h</itemPath>
+      <itemPath>SerialSender.hpp</itemPath>
+      <itemPath>SocketSender.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>DconSender.cpp</itemPath>
+      <itemPath>PanelSender.cpp</itemPath>
+      <itemPath>Processor.cpp</itemPath>
+      <itemPath>SerialSender.cpp</itemPath>
+      <itemPath>SocketReceiver.cpp</itemPath>
+      <itemPath>SocketSender.cpp</itemPath>
+      <itemPath>module_new.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/include/modbus</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="AReceiver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ASender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DconSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DconSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PanelSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PanelSender.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Processor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Processor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerialSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketReceiver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketReceiver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="message_t.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="module_new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/include/modbus</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="AReceiver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ASender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DconSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DconSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PanelSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PanelSender.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Processor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Processor.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SerialSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SerialSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketReceiver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketReceiver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketSender.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketSender.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="message_t.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="module_new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,1 @@
+./Debug/DconSender.cpp.o ./Debug/PanelSender.cpp.o ./Debug/Processor.cpp.o ./Debug/SocketReceiver.cpp.o ./Debug/SocketSender.cpp.o ./Debug/SerialSender.cpp.o
